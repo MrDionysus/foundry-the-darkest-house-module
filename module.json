@@ -50,6 +50,6 @@
             "entity": "Playlist"
         }
     ],
-    "manifest": "",
-    "download": ""
+    "manifest": "https://raw.githubusercontent.com/MrDionysus/foundry-the-darkest-house-module/main/module.json",
+    "download": "https://github.com/MrDionysus/foundry-the-darkest-house-module/archive/refs/heads/main.zip"
   }
