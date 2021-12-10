@@ -2,51 +2,27 @@
     "name": "foundry-the-darkest-house-module",
     "title": "The Darkest House",
     "description": "Content Module for The Darkest House, by Monte Cook Games",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "MrDionysus",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.9",
     "packs": [
         {
-            "name": "module-creatures",
-            "label": "Module Creatures",
-            "path": "./packs/creatures.db",
-            "entity": "Actor"
-        },
-        {
-            "name": "module-items",
-            "label": "Module Items",
-            "path": "./packs/items.db",
-            "entity": "Item"
-        },
-        {
-            "name": "module-scenes",
-            "label": "Module Scenes",
-            "path": "./packs/scenes.db",
+            "name": "the-darkest-house-scenes",
+            "label": "The Darkest House Scenes",
+            "path": "./packs/the-darkest-house-scenes.db",
             "entity": "Scene"
         },
         {
-            "name": "module-journal-entries",
-            "label": "Module Journal Entries",
-            "path": "./packs/journal-entries.db",
+            "name": "the-darkest-house-journal-entries",
+            "label": "The Darkest House Journals",
+            "path": "./packs/the-darkest-house-journals.db",
             "entity": "JournalEntry"
         },
         {
-            "name": "module-macros",
-            "label": "Module Macros",
-            "path": "./packs/macros.db",
-            "entity": "Macro"
-        },
-        {
-            "name": "module-roll-tables",
-            "label": "Module Roll Tables",
-            "path": "./packs/roll-tables.db",
-            "entity": "RollTable"
-        },
-        {
             "name": "module-playlists",
-            "label": "Module Playlists",
-            "path": "./packs/playlists.db",
+            "label": "The Darkest House Playlists",
+            "path": "./packs/the-darkest-house-playlists.db",
             "entity": "Playlist"
         }
     ],
