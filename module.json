@@ -8,23 +8,39 @@
     "compatibleCoreVersion": "0.8.9",
     "packs": [
         {
-            "name": "the-darkest-house-scenes",
+            "name": "scenes",
             "label": "The Darkest House Scenes",
             "path": "./packs/the-darkest-house-scenes.db",
             "entity": "Scene"
         },
         {
-            "name": "the-darkest-house-journal-entries",
+            "name": "journals",
             "label": "The Darkest House Journals",
             "path": "./packs/the-darkest-house-journals.db",
             "entity": "JournalEntry"
         },
         {
-            "name": "module-playlists",
+            "name": "actors",
+            "label": "The Darkest House Actors",
+            "path": "./packs/the-darkest-house-actors.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "playlists",
             "label": "The Darkest House Playlists",
             "path": "./packs/the-darkest-house-playlists.db",
             "entity": "Playlist"
         }
+    ],
+    "dependencies": [
+        {
+          "name": "scene-packer",
+          "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+          "type": "module"
+        }
+    ],
+    "scripts": [
+        "scripts/the-darkest-house-module.js"
     ],
     "manifest": "https://raw.githubusercontent.com/MrDionysus/foundry-the-darkest-house-module/main/module.json",
     "download": "https://github.com/MrDionysus/foundry-the-darkest-house-module/archive/refs/heads/main.zip"
