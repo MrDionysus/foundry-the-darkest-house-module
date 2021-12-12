@@ -2,7 +2,7 @@
     "name": "foundry-the-darkest-house-module",
     "title": "The Darkest House",
     "description": "Content Module for The Darkest House, by Monte Cook Games",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "author": "MrDionysus",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.9",
